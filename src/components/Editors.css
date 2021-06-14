@@ -1,0 +1,161 @@
+.frame{
+    position: fixed;
+    top: 80px;
+    width: 49.5%;
+    height: 537px;
+}
+
+.aceeditor{
+    top:80px;
+    position: fixed;
+}
+
+.run-btn{
+    background-color: rgb(207, 205, 205);
+    position: fixed;
+    top: 36px;
+    left: 10px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 11px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.run-btn:hover {
+    background-color:  #555555;
+    color: white;
+}
+
+.download-btn{
+    background-color: rgb(207, 205, 205);
+    position: fixed;
+    top: 36px;
+    left: 85px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 11px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color:  #555555;
+    color: white;
+}
+
+.theme-btn{
+    background-color: rgb(207, 205, 205);
+    position: fixed;
+    top: 36px;
+    left: 196px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 11px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.theme-btn:hover {
+    background-color:  #555555;
+    color: white;
+}
+
+@media all and (max-width: 600px) {
+    .frame{
+        width: 100% !important;
+        height: 240px !important;
+        position: relative !important;
+        top: 80px;
+    }
+    
+    .aceeditor{
+        width: 100% !important;
+        top: 80px !important;
+        position: relative !important;
+        height: 230px !important;
+        
+    }
+    
+    
+    .run-btn{
+        background-color: rgb(207, 205, 205);
+        position: fixed;
+        top: 36px;
+        left: 10px;
+        border: none;
+        border-radius: 8px;
+        color: black;
+        padding: 11px 23px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+    .run-btn:hover {
+        background-color:  #555555;
+        color: white;
+    }
+    
+    .download-btn{
+        background-color: rgb(207, 205, 205);
+        position: fixed;
+        top: 36px;
+        left: 85px;
+        border: none;
+        border-radius: 8px;
+        color: black;
+        padding: 11px 23px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+    .download-btn:hover {
+        background-color:  #555555;
+        color: white;
+    }
+    
+    .theme-btn{
+        background-color: rgb(207, 205, 205);
+        position: fixed;
+        top: 36px;
+        left: 196px;
+        border: none;
+        border-radius: 8px;
+        color: black;
+        padding: 11px 23px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+    .theme-btn:hover {
+        background-color:  #555555;
+        color: white;
+    }
+}
